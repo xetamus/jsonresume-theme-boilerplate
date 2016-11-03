@@ -7,23 +7,22 @@
 	
 	<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
 
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 	<style>
 	{{{css}}}
 	</style>
+
+    <script src= "http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 	
 	</head>
 	<body>
-	
-	<div id="resume">
-		{{> basics }}
-		{{> work }}
-		{{> volunteer }}
-		{{> education }}
-		{{> awards }}
-		{{> publications }}
-		{{> skills }}
-		{{> languages }}
-		{{> interests }}
-		{{> references }}
+    {{> basics }}
+    {{> skills }}
+    {{> work }}
+    {{> education}}
+    {{> references}}
+    </div>
 	</body>
 </html>
