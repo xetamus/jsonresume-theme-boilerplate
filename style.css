@@ -9,6 +9,7 @@ header {
     background: #333;
     color: #fff;
     padding: 3px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 }
 
 .about {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 td {
@@ -54,23 +55,24 @@ p {
     font-size:1.5em;
 }
 
-h4 {
-}
-
 li {
 	font-family: 'Open Sans';
 }
 
 .keywords {
 	display:inline-block;
-    border: 1px solid #357ebd;
+    border: 1px solid #fdfdfd;
     border-radius: 5px;
-	background-color: #333333;
+	background-color: #333;
 	color:#fff;
 	padding: 5px;
 	margin-bottom: 5px;
 }
 
-.skills {
-	margin-bottom: 10px;
+a {
+    color: #fff;
 }
+
+#blurb {
+   border: 3px solid #333;
+   border-radius: 3px;

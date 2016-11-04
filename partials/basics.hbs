@@ -17,8 +17,8 @@
                     </tr>
                     {{#profiles}}
                     <tr>
-                        <td><i class="fa fa-{{network}}"></i></td>
-                        <td>{{ url }}</td>
+                        <td><a href="{{url}}"><i class="fa fa-{{network}}"></i></a></td>
+                        <td><a href="{{url}}">{{ url }}</a></td>
                     </tr>
                     {{/profiles}}
                 </table>
@@ -26,6 +26,12 @@
         </header>
 
         <div id="resume">
+            <table class="section" id="blurb">
+                <tr>
+                    <td><i class= "fa fa-body fa-user-circle left"></i></td>
+                    <td>{{summary}}</td>
+                </tr>
+            </table>
 
 <!--
             <div class="section" id= "about">
